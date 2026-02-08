@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  transition: all 0.4s ease;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.button-group {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #0066cc;
+  color: white;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+/* Task 1–4 */
+.highlight {
+  background-color: #fffacd;
+  color: #d63384;
+  padding: 12px;
+  border-left: 5px solid #d63384;
+  font-weight: bold;
+}
+
+/* Task 5 */
+.active-btn {
+  background-color: #28a745 !important;
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+}
+
+/* Task 6 – Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode h1, .dark-mode h2 {
+  color: #ffffff;
+}
+
+.dark-mode button {
+  background-color: #1e88e5;
+}
+
+.dark-mode button:hover {
+  background-color: #1565c0;
+}
+
+.dark-mode .highlight {
+  background-color: #3a2a00;
+  color: #ffcc80;
+  border-left-color: #ff9800;
+}
